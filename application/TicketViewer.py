@@ -107,6 +107,10 @@ class TicketViewer:
         try:
             response = requests.get(self.singleTicketEndpoint + f"{id}.json",
                                     auth=APIAuthentication.APIAuthentication.getBasicAPITokenCreds())
+            if response.status_code == 404:
+                print("\nThe entered ticket id does not exist! Please try again\n")
+                return
+
             response.raise_for_status()
             data = response.json()
             self.displaySingleTicket(data['ticket'])

@@ -22,7 +22,7 @@ HOW TO RUN:
 
 5) Follow the steps on the application to get all tickets or a single ticket.
 6) You can click on the below link to view the below under 2 minutes video to know how to use the application. 
-Note: the above steps have been completed in the video.
+**Note:** the above steps have been completed in the video.
 
    [video link](https://drive.google.com/file/d/1bXM-fwdr-Pzoc3sSIbshdBrssRcp3kDB/view?usp=sharing)
 
